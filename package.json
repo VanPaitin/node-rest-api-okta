@@ -1,0 +1,24 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "A parts catalog",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Mayowa Pitan",
+  "license": "ISC",
+  "dependencies": {
+    "@okta/jwt-verifier": "0.0.12",
+    "btoa": "^1.2.1",
+    "dotenv": "^6.0.0",
+    "epilogue": "^0.7.1",
+    "express": "^4.16.4",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.38.0",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
